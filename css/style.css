@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    background-color: #dee5ea;
+}
+.flex-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.search {
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: 2px 2px 5px 1px rgba(51, 51, 51, 0.15);
+}
+.input-text {
+    appearance: none;
+    border-style: none;
+    width: 8rem;
+    margin-right: 4rem;
+    color: #333;
+    text-align: center;
+}
+.input-text:focus {
+    outline: none;
+}
+
+.text-search {
+    margin-right: 4rem;
+}
+
+.weather-card {
+    border-radius: 15px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: 463px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(250, 250, 250, 1) 100%);
+    box-shadow: 2px 2px 5px 1px rgba(51, 51, 51, 0.15);
+    gap: 2rem;
+}
+
+.weather-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp-top {
+    display: block;
+    font-size: 3rem;
+}
+
+.condition-top {
+    font-size: x-large;
+}
+
+.weather-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.city {
+    font-size: x-large;
+}
+
+.separator {
+    border-style: solid;
+    margin-top: 0.75rem;
+    box-shadow: 0px 2px 5px 0px rgba(51, 51, 51, 0.15);
+}
+
+.conditions {
+    margin-top: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conditions-week {
+    font-size: x-large;
+}
+.day {
+    font-size: x-large;
+}
+.temp-week {
+    font-size: x-large;
+}
+.weathericon {
+    width: 130px;
+}
+
+.conditions img {
+    width: 45px;
+}
