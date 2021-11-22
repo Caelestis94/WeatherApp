@@ -55,6 +55,8 @@ document.getElementById("city_input")
     event.preventDefault();
     if (event.key === "Enter") {
         getCoordinates(this.value);
+        this.value =''
+        this.blur();
     }
 });
 
