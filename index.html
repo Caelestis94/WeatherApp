@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <script src="js/script.js" async></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main class="flex-main">
-        <div class="search">
-            <img src="assets/images/bytesize_search.svg" alt="">
-            <input class="input-text" id="city_input" type="text" placeholder="Enter city name">
-        </div>
-        <div class="weather-card">
+      <div class="search">
+        <img src="assets/images/bytesize_search.svg" alt="" />
+        <input
+          class="input-text"
+          id="city_input"
+          type="text"
+          placeholder="Enter city name"
+        />
+      </div>
+      <div class="weather-card">
+        <div class="weather-top">
+          <img src="" class="weathericon" id="weather_icon" alt="" />
 
-            <div class="weather-top">
-                <img src="" class="weathericon" id="weather_icon" alt="">
-                
-                <div>
-                    <span class="temp-top" id="temp_top"></span>
-                    <span class="xlarge-font" id="condition_top"></span>
-                </div>
-
-            </div>
-            <div class="weather-bottom">
-                <span id="city_name" class="xlarge-font"></span>
-                <div class="week-weather">
-                    <hr class="separator">
-                    <div class="conditions">
-                        <img src=""  id="forecast_img_0" alt="">
-                        <span class="xlarge-font" id="forecast_weather_0"></span><span class="xlarge-font" id="forecast_day_0"></span><span class="xlarge-font" id="forecast_temp_0">18c</span>
-                    </div>
-                    <hr class="separator">
-                    <div class="conditions">
-                        <img src=""  id="forecast_img_1"alt="">
-                        <span class="xlarge-font" id="forecast_weather_1"></span><span class="xlarge-font" id="forecast_day_1"></span><span class="xlarge-font" id="forecast_temp_1">18c</span>
-                    </div>
-                    <hr class="separator">
-                    <div class="conditions">
-                        <img src="" id="forecast_img_2" alt="">
-                        <span class="xlarge-font" id="forecast_weather_2"></span><span class="xlarge-font" id="forecast_day_2"></span><span class="xlarge-font" id="forecast_temp_2">18c</span>
-                    </div>
-                </div>
-                
-            </div>
+          <div>
+            <span class="temp-top" id="temp_top"></span>
+            <span class="xlarge-font" id="condition_top"></span>
+          </div>
         </div>
+        <div class="weather-bottom">
+          <span id="city_name" class="xlarge-font"></span>
+          <div class="week-weather">
+            <hr class="separator" />
+            <div class="conditions">
+              <img src="" id="forecast_img_0" alt="" />
+              <span class="xlarge-font" id="forecast_weather_0"></span
+              ><span class="xlarge-font" id="forecast_day_0"></span
+              ><span class="xlarge-font" id="forecast_temp_0">18c</span>
+            </div>
+            <hr class="separator" />
+            <div class="conditions">
+              <img src="" id="forecast_img_1" alt="" />
+              <span class="xlarge-font" id="forecast_weather_1"></span
+              ><span class="xlarge-font" id="forecast_day_1"></span
+              ><span class="xlarge-font" id="forecast_temp_1">18c</span>
+            </div>
+            <hr class="separator" />
+            <div class="conditions">
+              <img src="" id="forecast_img_2" alt="" />
+              <span class="xlarge-font" id="forecast_weather_2"></span
+              ><span class="xlarge-font" id="forecast_day_2"></span
+              ><span class="xlarge-font" id="forecast_temp_2">18c</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>
